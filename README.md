@@ -12,15 +12,15 @@ It uses the Lagrangian/KKT formulation and includes numerical stability handling
 ## 🧠 What It Does
 
 Given:
-- A covariance matrix of asset returns \( \Sigma \)
-- A vector of expected returns \( \mu \)
-- An optional target return \( \mu^* \)
+- A covariance matrix of asset returns $\Sigma$
+- A vector of expected returns $\mu$
+- An optional target return $\mu^*$
 
 The optimizer solves:
 
-\[
+$$
 \min_w \ w^T \Sigma w \quad \text{subject to} \quad w^T \mu = \mu^*, \quad \sum w_i = 1
-\]
+$$
 
 If no target return is provided, it computes the global minimum-variance portfolio.
 
