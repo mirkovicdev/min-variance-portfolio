@@ -32,6 +32,7 @@ If no target return is provided, it computes the global minimum-variance portfol
 - ✅ Handles singular or ill-conditioned matrices using pseudoinverse
 - ✅ Returns optimal weights and portfolio risk
 - ✅ Easily extendable to include long-only constraints or regularization
+- ✅ Plots efficient frontier for visualization
 
 ---
 
@@ -39,6 +40,8 @@ If no target return is provided, it computes the global minimum-variance portfol
 
 - Python 3.x
 - NumPy
+- cvxpy
+- matplotlib
 
 Install dependencies:
 
